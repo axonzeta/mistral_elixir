@@ -1,4 +1,6 @@
 # Mistral_Client
+[![Hex.pm Version](https://img.shields.io/hexpm/v/mistral_client)](https://hex.pm/packages/mistral_client)
+[![Hex.pm Download Total](https://img.shields.io/hexpm/dt/mistral_client)](https://hex.pm/packages/mistral_client)
 
 Unofficial community-maintained wrapper for Mistral's platform REST APIs
 
