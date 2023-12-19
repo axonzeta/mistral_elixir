@@ -1,6 +1,7 @@
 # Mistral_Client
 
 Unofficial community-maintained wrapper for Mistral's platform REST APIs
+
 See https://docs.mistral.ai/ for further info on REST endpoints
 
 ## Installation
@@ -99,7 +100,7 @@ Retrieve the list of available models
 ```
 See: https://docs.mistral.ai/api#operation/listModels
 
-### chat_completion()
+### chat()
 Creates a completion for the chat message
 
 #### Example request
@@ -144,7 +145,7 @@ MistralClient.chat(
 
 See: https://docs.mistral.ai/api#operation/createChatCompletion for the complete list of parameters you can pass to the chat function
 
-### chat_completion() with stream
+### chat() with stream
 Creates a completion for the chat message, by default it streams to `self()`, but you can override the configuration by passing a config override to the function with a different `stream_to`  http_options parameter.
 
 #### Example request
