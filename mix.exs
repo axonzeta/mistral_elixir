@@ -10,8 +10,8 @@ defmodule MistralClient.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
-      name: "mistral-client",
-      source_url: "https://github.com/axonzeta/mistral-client",
+      name: "mistral_client",
+      source_url: "https://github.com/axonzeta/mistral_client",
       docs: [
 	main: "MistralClient"
       ]
@@ -38,7 +38,7 @@ defmodule MistralClient.MixProject do
       licenses: ["MIT"],
       exclude_patterns: ["./config/*"],
       links: %{
-        "GitHub" => "https://github.com/axonzeta/mistral-client"
+        "GitHub" => "https://github.com/axonzeta/mistral_client"
       },
       maintainers: [
         "rhys101"
