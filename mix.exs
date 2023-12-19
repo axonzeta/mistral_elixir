@@ -11,7 +11,7 @@ defmodule MistralClient.MixProject do
       deps: deps(),
       package: package(),
       name: "mistral_client",
-      source_url: "https://github.com/axonzeta/mistral_client",
+      source_url: "https://github.com/axonzeta/mistral_elixir",
       docs: [
 	main: "MistralClient"
       ]
@@ -29,7 +29,7 @@ defmodule MistralClient.MixProject do
 
   defp description do
     """
-    community-maintained Mistral API Wrapper written in Elixir.
+    Mistral API Wrapper written in Elixir.
     """
   end
 
@@ -38,7 +38,7 @@ defmodule MistralClient.MixProject do
       licenses: ["MIT"],
       exclude_patterns: ["./config/*"],
       links: %{
-        "GitHub" => "https://github.com/axonzeta/mistral_client"
+        "GitHub" => "https://github.com/axonzeta/mistral_elixir"
       },
       maintainers: [
         "rhys101"
