@@ -42,7 +42,7 @@ MistralClient.chat(
   [
     "model": "mistral-tiny",
     "messages": [
-      {
+      %{
         "role": "user",
         "content": "What is the best French cheese?"
       }
@@ -55,7 +55,7 @@ MistralClient.chat(
 MistralClient.chat(
   "model": "mistral-tiny",
   "messages": [
-    {
+    %{
       "role": "user",
       "content": "What is the best French cheese?"
     }
@@ -110,7 +110,7 @@ Creates a completion for the chat message
 MistralClient.chat(
   "model": "mistral-tiny",
   "messages": [
-    {
+    %{
       "role": "user",
       "content": "What is the best French cheese?"
     }

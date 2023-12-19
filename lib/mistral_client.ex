@@ -64,7 +64,7 @@ defmodule MistralClient do
   MistralClient.chat(
     "model": "mistral-tiny",
     "messages": [
-      {
+      %{
         "role": "user",
         "content": "What is the best French cheese?"
       }
