@@ -32,7 +32,7 @@ defmodule MistralClient do
       data: [
         %{
           "created" => 1702997889,
-          "id" => "mistral-medium",
+          "id" => "mistral-medium-latest",
           "object" => "model",
           "owned_by" => "mistralai",
           "parent" => nil,
@@ -62,7 +62,7 @@ defmodule MistralClient do
   ## Example request
   ```elixir
   MistralClient.chat(
-    "model": "mistral-tiny",
+    "model": "open-mistral-7b",
     "messages": [
       %{
         "role": "user",
@@ -88,7 +88,7 @@ defmodule MistralClient do
      ],
      created: 1702997889,
      id: "cmpl-83f575cf654b4a83b99d342f644db292",
-     model: "mistral-tiny",
+     model: "open-mistral-7b",
      object: "chat.completion",
      usage: %{
        "completion_tokens" => 204,
@@ -105,7 +105,7 @@ defmodule MistralClient do
   ```elixir
   MistralClient.chat(
     [
-      model: "mistral-tiny",
+      model: "open-mistral-7b",
       messages: [
         %{role: "user", content: "What is the best French cheese?"}
       ],
@@ -126,7 +126,7 @@ defmodule MistralClient do
       %{"delta" => %{"role" => "assistant"}, "finish_reason" => nil, "index" => 0}
     ],
     "id" => "cmpl-9d2c56da16394e009cafbbde9cb5d725",
-    "model" => "mistral-tiny"
+    "model" => "open-mistral-7b"
   }
   %{
     "choices" => [
@@ -141,7 +141,7 @@ defmodule MistralClient do
     ],
     "created" => 1702999980,
     "id" => "cmpl-9d2c56da16394e009cafbbde9cb5d725",
-    "model" => "mistral-tiny",
+    "model" => "open-mistral-7b",
     "object" => "chat.completion.chunk"
   }
   %{
@@ -157,7 +157,7 @@ defmodule MistralClient do
     ],
     "created" => 1702999980,
     "id" => "cmpl-9d2c56da16394e009cafbbde9cb5d725",
-    "model" => "mistral-tiny",
+    "model" => "open-mistral-7b",
     "object" => "chat.completion.chunk"
   }
   ```
